@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Flutter Setup Script for Freestyle Sandboxes
-# This script installs Flutter SDK if it's not already available
-
-echo "🚀 Checking Flutter installation..."
+echo "🚀 Setting up Flutter for web development..."
 
 # Set Flutter directory
 FLUTTER_DIR="$HOME/flutter"
@@ -45,8 +43,8 @@ echo 'export PATH="$PATH:$HOME/flutter/bin"' >> ~/.bashrc
 echo "⚙️ Configuring Flutter..."
 flutter config --enable-web --no-analytics
 
-# Pre-cache web artifacts (this may take a while)
-echo "📱 Pre-caching web artifacts..."
+# Pre-cache web artifacts
+echo "📱 Pre-caching web artifacts (this may take a moment)..."
 flutter precache --web
 
 # Run Flutter doctor
@@ -54,4 +52,4 @@ echo "🩺 Running Flutter doctor..."
 flutter doctor --verbose
 
 echo "✅ Flutter installation complete!"
-echo "🎉 You can now run: flutter run -d web-server"
+echo "🎉 You can now run Flutter commands!"
