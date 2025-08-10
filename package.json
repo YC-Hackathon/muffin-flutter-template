@@ -1,17 +1,17 @@
 {
-"name": "muffin-flutter-template",
-"version": "1.0.0",
-"description": "Flutter Hello World Template for Freestyle Sandboxes",
-"scripts": {
-  "preinstall": "bash ./setup-flutter.sh",
-  "install": "export PATH=\"$PATH:$HOME/flutter/bin\" && flutter pub get",
-  "dev": "export PATH=\"$PATH:$HOME/flutter/bin\" && flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080 --hot",
-  "start": "npm run dev",
-  "build": "export PATH=\"$PATH:$HOME/flutter/bin\" && flutter build web",
-  "test": "export PATH=\"$PATH:$HOME/flutter/bin\" && flutter test",
-  "doctor": "export PATH=\"$PATH:$HOME/flutter/bin\" && flutter doctor"
-},
-"keywords": ["flutter", "dart", "web", "hello-world"],
-"author": "YC Hackathon",
-"license": "MIT"
-}
+    "name": "muffin-flutter-template",
+    "version": "1.0.0",
+    "description": "Flutter Hello World Template for Freestyle Sandboxes",
+    "scripts": {
+      "preinstall": "bash ./setup-flutter.sh",
+      "install": "export PATH=\"$PATH:/root/flutter/bin\" && flutter pub get",
+      "dev": "export PATH=\"$PATH:/root/flutter/bin\" && flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080 --hot",
+      "start": "npm run dev",
+      "build": "export PATH=\"$PATH:/root/flutter/bin\" && flutter build web",
+      "test": "export PATH=\"$PATH:/root/flutter/bin\" && flutter test",
+      "doctor": "export PATH=\"$PATH:/root/flutter/bin\" && flutter doctor"
+    },
+    "keywords": ["flutter", "dart", "web", "hello-world"],
+    "author": "YC Hackathon",
+    "license": "MIT"
+  }
